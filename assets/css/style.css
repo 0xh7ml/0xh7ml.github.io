@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* 
+colors: 
+
+
+*/
+.gradient-text-header{
+    color: #CFD6E6;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+.sidebar-wrap{
+    min-width: 300px;
+    background-color: #1b2330;
+    left: 0;
+}
+.content-wrap{
+    flex-grow:1;
+    display: flex;
+    width: 100%;
+}
+.inner-text{
+    font-size: 24px;
+    font-weight: 700;
+}
+.sidebar-wrap img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 75px;
+    margin-top: 7em;
+}
+.sidebar-wrap .user-logo h3{
+    text-align: center;
+    color: #CFD6E6;
+    text-transform: capitalize;
+    font-family:'Montserrat';
+    font-size: 22px;
+    margin-top: 18px;
+}
+.sidebar-wrap ul{
+    padding-left: 20px;
+}
+.sidebar-wrap ul li{
+    list-style: none;
+    padding: 15px;
+}
+.sidebar-wrap ul li a{
+    color: #CFD6E6;
+    display: block;
+    text-decoration: none;
+}
+.sidebar-wrap ul li .fa-solid{
+    width: 25px;
+}
+.sidebar-wrap ul li:hover{
+    background-color: #2c3e50;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: 1s;
+}
+.sidebar-wrap ul li a:hover{
+    color: #CFD6E6;
+}
+.sidebar-wrap .user-logo h6{
+    text-align: center;
+    color: #CFD6E6;
+    font-family:'montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+.header-bar{
+    height: 55px;
+    width: 100%;
+    background-color: #2c3e50; 
+}
+.content-wrap .main-container-wrap{
+    display: flex;
+}
+/* menu icon part */
+.ham-burger-icon {
+    display: none;
+    padding: 15px 15px 0 0;
+    float: right;
+}
+.ham-burger-icon .fa-solid{
+    color: #CFD6E6;
+    font-size: 25px;
+}
+/* menu icon part end */
+/* media query section*/
+
+@media only screen and (max-width: 850px){
+    .sidebar-wrap{
+        display: none;
+    }
+    .header-bar{
+        height: 55px;
+        width: 100%;
+        background-color: #2c3e50; 
+    }
+    .ham-burger-icon {
+        display: block;
+        padding: 15px 15px 0 0;
+        cursor: pointer;
+        float: right;
+    }
+    .toggle-sidebar{
+        display: block!important;
+    }
+}
