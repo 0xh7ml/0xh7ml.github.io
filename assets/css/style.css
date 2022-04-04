@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=PT+Sans:wght@400;700&display=swap');
 
+html {
+    height: 100%;
+    background-color: #ededed;
+}
+body{
+    height: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,43 +18,39 @@
 /* 
 colors: 
 #562eff
-
 */
-
-/* 
-About Category CSS
-
-*/
-
-body {
-    background-image: url("../img/bg.png");
-    background-position: center center;
-    background-position: cover;
-    background-repeat: no-repeat;
-}
-
 .main-wrap {
     display: flex;
+    height: 100%;
 }
 
 .sidebar-wrap {
-    min-width: 220px;
+    min-width: 250px;
     background-color: #222222;
     left: 0;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+    height: 100%;
 }
 
 .content-wrap {
     display: flex;
     flex-direction: column;
+    background-color: #f8f8f8;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
     width: 100%;
+    overflow: auto;
 }
 
 .sidebar-wrap img {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     display: block;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 7em;
 }
 
@@ -280,41 +283,59 @@ body {
 .col-lg-3 .fun-fact-block .fa-solid {
     font-size: 55px;
 }
+
 /* 
 Resume Category CSS
 */
-.timeline-event{
+.timeline-event {
     border-left: 0.5px solid #282828;
     font-family: 'PT sans';
 }
-.timeline-event .event-date{
-display: inline-block;
-position: relative;
-color: #fff;
-font-size: 13px;
-font-weight: 300;
-line-height: 1.1em;
-margin: 0 0 3px;
-margin-left: 0px;
-background-color: #562eff;
-padding: 6px 9px 9px 20px;
-font-family: 'Oxygen';
+
+.timeline-event .event-date {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 0 0 3px;
+    margin-left: 0px;
+    background-color: #562eff;
+    padding: 6px 9px 9px 20px;
+    font-family: 'Oxygen';
 }
+
 .timeline-event .event-name {
     margin: 10px 0 0 10px;
     font-family: 'PT sans';
-  }
-.timeline-event .event-description{
-color: #a5a5a5;
-margin: 10px;
-font-size: 12px;
-font-weight: 300;
-line-height: 1.45em;
 }
-.timeline-event p{
-font-size: .875em;
-margin:10px;
-font-weight: 300;
+
+.timeline-event .event-description {
+    color: #a5a5a5;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.45em;
+}
+
+.timeline-event p {
+    font-size: .875em;
+    margin: 10px;
+    font-weight: 300;
+}
+.progress{
+    height: 7px;
+    border-radius:0;
+}
+.progress-bar{
+    background-color: #562eff;
+}
+.skill-info h6{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 /* media query section*/
 @media only screen and (max-width: 850px) {
@@ -330,9 +351,9 @@ font-weight: 300;
         border-bottom: 1px solid rgba(255, 255, 255, .12);
     }
 
-    .ham-burger-icon{
+    .ham-burger-icon {
         display: block;
-        padding:5px 0 5px 0;
+        padding: 5px 0 5px 0;
         cursor: pointer;
     }
 
