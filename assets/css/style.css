@@ -82,8 +82,7 @@ body {
 /* menu icon part */
 .ham-burger-icon {
     display: none;
-    padding: 15px 15px 0 0;
-    float: right;
+    padding: 16px  0 0 16px;
 }
 
 .ham-burger-icon .fa-solid {
@@ -194,7 +193,6 @@ body {
         display: block;
         padding: 15px 15px 0 0;
         cursor: pointer;
-        float: right;
     }
 
     .toggle-sidebar {
