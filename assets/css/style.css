@@ -129,6 +129,7 @@ colors:
     text-align: left;
     font-family: 'Oxygen';
     padding: 10px 10px 0px 10px;
+    text-transform: uppercase;
 }
 
 .section-description {
@@ -333,9 +334,18 @@ Resume Category CSS
 }
 .skill-info h6{
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-outline-light:hover{
+    color: #fff;
+    background-color: #562eff;
+    text-decoration: none;
 }
 /* media query section*/
 @media only screen and (max-width: 850px) {
