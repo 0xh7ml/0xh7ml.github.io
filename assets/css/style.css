@@ -15,7 +15,7 @@ colors:
 */
 
 body {
-    background-image: url("/assets/img/bg.png");
+    background-image: url("../img/bg.png");
     background-position: center center;
     background-position: cover;
     background-repeat: no-repeat;
@@ -26,8 +26,7 @@ body {
 }
 
 .sidebar-wrap {
-    min-width: 200px;
-    height: 1000vh;
+    min-width: 220px;
     background-color: #222222;
     left: 0;
 }
@@ -72,7 +71,7 @@ body {
 }
 
 .sidebar-wrap ul li .fa-solid {
-    width: 25px;
+    width: 40px;
 }
 
 .sidebar-wrap ul li a:hover {
