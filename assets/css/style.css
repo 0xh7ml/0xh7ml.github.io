@@ -80,6 +80,10 @@ body {
 }
 
 /* menu icon part */
+.ham-burger-icon {
+    display: none;
+    padding: 16px 0 0 16px;
+}
 
 .ham-burger-icon .fa-solid {
     color: #562eff;
@@ -99,6 +103,12 @@ body {
 
 .section-title {
     border-left: 2px solid #562eff;
+}
+.mini-section-title h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px;
 }
 
 .section-title-text {
@@ -131,11 +141,10 @@ body {
     vertical-align:bottom
 }
 
-.col-lg-4 h3 {
+.col-lg-4 h3{
     font-weight: 700;
     font-size: 19px;
-    width: 350px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .col-lg-4 p {
@@ -151,7 +160,6 @@ body {
     border-bottom: 1px solid #562eff;
     white-space:normal;
     font-weight: 700;
-    text-transform: capitalize;
 }
 .col-lg-4 ul li .value{
     font-weight: normal;
