@@ -27,7 +27,7 @@ body {
 
 .sidebar-wrap {
     min-width: 200px;
-    height: 100vh;
+    height: 1000vh;
     background-color: #222222;
     left: 0;
 }
@@ -104,7 +104,8 @@ body {
 .section-title {
     border-left: 2px solid #562eff;
 }
-.mini-section-title h3{
+
+.mini-section-title h3 {
     color: #fff;
     font-size: 19px;
     font-weight: 600;
@@ -138,10 +139,10 @@ body {
 .about-image img {
     width: 100%;
     height: auto;
-    vertical-align:bottom
+    vertical-align: bottom
 }
 
-.col-lg-4 h3{
+.col-lg-4 h3 {
     font-weight: 700;
     font-size: 19px;
     text-transform: none;
@@ -152,33 +153,64 @@ body {
     font-size: .875em;
     font-family: 'PT sans';
 }
+
 .col-lg-4 ul li {
     list-style: none;
 }
+
 .col-lg-4 ul li .title {
     font-size: 14px;
     border-bottom: 1px solid #562eff;
-    white-space:normal;
+    white-space: normal;
     font-weight: 700;
 }
-.col-lg-4 ul li .value{
+
+.col-lg-4 ul li .value {
     font-weight: normal;
     font-family: 'Pt sans';
 }
-.col-lg-4 ul li a{
+
+.col-lg-4 ul li a {
     color: #562eff;
     font-size: 22px;
     display: block;
     padding: 16px 16px 0 0px;
 }
-.col-lg-4 ul li a:hover{
+
+.col-lg-4 ul li a:hover {
     color: #fff;
     font-size: 22px;
     transition: 0.05s;
 }
-.col-lg-4 .social-link li{
+
+.col-lg-4 .social-link li {
     float: left;
 }
+
+.col-lg-3 {
+    text-align: center;
+}
+
+.col-lg-3 .fa-circle {
+    color: #562eff;
+}
+
+.col-lg-3 h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.col-lg-3 p {
+    font-size: .875em;
+    margin: 0 0 10px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'PT sans';
+}
+
 /* media query section*/
 @media only screen and (max-width: 850px) {
     .sidebar-wrap {
