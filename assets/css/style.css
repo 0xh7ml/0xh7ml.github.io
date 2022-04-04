@@ -14,6 +14,11 @@ colors:
 
 */
 
+/* 
+About Category CSS
+
+*/
+
 body {
     background-image: url("../img/bg.png");
     background-position: center center;
@@ -275,7 +280,42 @@ body {
 .col-lg-3 .fun-fact-block .fa-solid {
     font-size: 55px;
 }
-
+/* 
+Resume Category CSS
+*/
+.timeline-event{
+    border-left: 0.5px solid #282828;
+    font-family: 'PT sans';
+}
+.timeline-event .event-date{
+display: inline-block;
+position: relative;
+color: #fff;
+font-size: 13px;
+font-weight: 300;
+line-height: 1.1em;
+margin: 0 0 3px;
+margin-left: 0px;
+background-color: #562eff;
+padding: 6px 9px 9px 20px;
+font-family: 'Oxygen';
+}
+.timeline-event .event-name {
+    margin: 10px 0 0 10px;
+    font-family: 'PT sans';
+  }
+.timeline-event .event-description{
+color: #a5a5a5;
+margin: 10px;
+font-size: 12px;
+font-weight: 300;
+line-height: 1.45em;
+}
+.timeline-event p{
+font-size: .875em;
+margin:10px;
+font-weight: 300;
+}
 /* media query section*/
 @media only screen and (max-width: 850px) {
     .sidebar-wrap {
