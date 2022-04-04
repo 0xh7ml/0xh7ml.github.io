@@ -80,10 +80,6 @@ body {
 }
 
 /* menu icon part */
-.ham-burger-icon {
-    display: none;
-    padding: 16px  0 0 16px;
-}
 
 .ham-burger-icon .fa-solid {
     color: #562eff;
@@ -191,7 +187,7 @@ body {
 
     .ham-burger-icon {
         display: block;
-        padding: 15px 15px 0 0;
+        padding: 16px 0 0 16px;
         cursor: pointer;
     }
 
