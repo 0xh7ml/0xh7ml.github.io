@@ -174,15 +174,26 @@ body {
 
 .col-lg-4 ul li a {
     color: #562eff;
-    font-size: 22px;
     display: block;
-    padding: 16px 16px 0 0px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 0 0;
+    border: 0.05px solid #555555;
+    border-radius: 50%;
+    height: auto;
+}
+.col-lg-4 ul li a .fa-brands,.fa-solid{
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
 }
 
 .col-lg-4 ul li a:hover {
     color: #fff;
-    font-size: 22px;
+    background-color: #562eff;
     transition: 0.05s;
+    border: none;
 }
 
 .col-lg-4 .social-link li {
@@ -218,10 +229,41 @@ body {
     font-size: 16px;
     font-weight: normal;
 }
-.col-lg-3 .fun-fact-block .fa-solid{
-    color: #fff;
-    font-size: 25px;
+.col-lg-3 .fun-fact-block{
+    color: #888888;
+    font-size: 55px;
     text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #282828;
+    background-color: #282828;
+}
+.col-lg-3 #fun-value{
+    color: #562eff;
+    font-family: 'PT sans';
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0px 10px 0px;
+}
+.col-lg-3 .fun-fact{
+    color: #888888;
+    font-size: 55px;
+    text-align: center;
+}
+.col-lg-3 .fun-fact h4{
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.col-lg-3 .fun-fact-block h4{
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.col-lg-3 .fun-fact .fa-solid{
+    font-size: 55px;
+}
+.col-lg-3 .fun-fact-block .fa-solid{
+    font-size: 55px;
 }
 /* media query section*/
 @media only screen and (max-width: 850px) {
