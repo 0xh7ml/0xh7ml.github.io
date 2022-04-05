@@ -339,11 +339,15 @@ Resume Category CSS
     text-transform: uppercase;
     font-weight: 400;
 }
-.btn a{
+.button{
+    border: 1px solid #f8f8f8;
+    padding: 10px;
+}
+.button a{
     color: #fff;
     text-decoration: none;
 }
-.btn-outline-light:hover{
+.button:hover{
     color: #fff;
     background-color: #562eff;
     text-decoration: none;
