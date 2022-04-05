@@ -348,6 +348,57 @@ Resume Category CSS
     background-color: #562eff;
     text-decoration: none;
 }
+.achivement-event p{
+    font-size: .875em;
+    margin: 10px;
+    font-weight: 300;
+}
+.achivement-event ul{
+    margin: 0;
+    padding: 0;
+}
+.achivement-event ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.achivement-event ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'PT sans';
+}
+.achivement-event ul li a:hover{
+    color: #562eff;
+}
+.achivement-event-image img{
+    width: 100%;
+    height: auto;
+    padding: .25rem;
+    background-color: #fff;
+    border: 2px solid #562eff;
+    border-radius: .25rem;
+
+}
+
+.contact-info ul{
+    margin: 0;
+    padding: 0;
+}
+.contact-info ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+.contact-info ul li h5{
+    font-size: 16px;
+    font-family: 'PT sans';
+}
+.contact-info ul li h5 .fa-solid{
+    padding: 0 20px 0 0;
+    color: #562eff;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
 /* media query section*/
 @media only screen and (max-width: 850px) {
     .sidebar-wrap {
@@ -359,7 +410,7 @@ Resume Category CSS
         width: 100%;
         position: relative;
         background-color: #222222;
-        border-bottom: 1px solid rgba(255, 255, 255, .12);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.501);
     }
 
     .ham-burger-icon {
