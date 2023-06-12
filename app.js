@@ -42,7 +42,7 @@ const gitURL = document.getElementById('custom-github-handler');
 gitURL.setAttribute('href', 'https://github.com/0xh7ml');
 
 const imageURL = document.getElementById('iits-img');
-imageURL.setAttribute('src', './img/img3.jpeg');
+imageURL.setAttribute('src', '/img/img3.jpeg');
 
 /**
  * Custom Background color using DOM Manipulation Goes here
