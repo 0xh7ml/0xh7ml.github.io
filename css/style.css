@@ -1,0 +1,32 @@
+body {
+    background-color: #24292f; /* GitHub dark dimmed background */
+    color: #c9d1d9; /* GitHub text color */
+    font-family: 'Consolas';
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: #2d333b; /* GitHub dark dimmed container background */
+    color: #c9d1d9; /* GitHub text color */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.code-section {
+    margin-bottom: 20px;
+}
+
+.key {
+    /* font-weight: bold; */
+    color: #56d364; /* GitHub purple color */
+}
+
+.text {
+    color: #79b8ff; /* GitHub blue color */
+}
+
+.comment {
+    color: #6e7681; /* GitHub comment color */
+}
