@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
     background-color: #24292f; /* GitHub dark dimmed background */
     color: #c9d1d9; /* GitHub text color */
-    font-family: 'Consolas';
+    font-family: 'Space Mono';
     line-height: 1.6;
     padding-top: 20px;
 }
